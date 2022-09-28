@@ -28,26 +28,17 @@
             $("#magazine").turn('page', 6);
         });
                 $(document).on('click','#Title2',function(){
-                    $("#magazine").turn('page', 29);
+                    $("#magazine").turn('page', 36);
                 });
                         $(document).on('click','#Title3',function(){
-                            $("#magazine").turn('page', 58);
+                            $("#magazine").turn('page', 62);
                         });
                                 $(document).on('click','#Title4',function(){
-                                    $("#magazine").turn('page', 79);
+                                    $("#magazine").turn('page', 84);
                                 });
                                         $(document).on('click','#Title5',function(){
-                                            $("#magazine").turn('page', 111);
+                                            $("#magazine").turn('page', 114);
                                         });
-                                                $(document).on('click','#Title6',function(){
-                                                    $("#magazine").turn('page', 136);
-                                                });
-                                                        $(document).on('click','#Title7',function(){
-                                                            $("#magazine").turn('page', 158);
-                                                        });
-                                                                $(document).on('click','#Title8',function(){
-                                                                    $("#magazine").turn('page', 176);
-                                                                });
 
         $(document).on('click','#lastPage',function(){
             $("#magazine").turn('page', PDFViewerApplication.pagesCount);
