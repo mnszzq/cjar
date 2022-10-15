@@ -27,7 +27,7 @@
 
 'use strict';
 
-var DEFAULT_URL =  "pdffiles/Volume 14 Issue 4 2020.pdf";
+var DEFAULT_URL =  "pdffiles/Volume 14 Issue 4 2021.pdf";
 var DEFAULT_SCALE_DELTA = 1.1;
 var MIN_SCALE = 0.25;
 var MAX_SCALE = 10.0;
